@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: Toggle HiddenFiles View (Ctrl+H) (D-Bus)
+description: A KDE Plasma Dolphin Service Menu
+logo: https://raw.githubusercontent.com/c-hartmann/show-hidden-files-dbus/main/assets/images/show-hidden-files-dbus-logo.png
+show_downloads: true
