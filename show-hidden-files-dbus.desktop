@@ -24,6 +24,7 @@
 Type=Service
 MimeType=inode/directory;
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Priority=TopLevel
 Icon=view-visible
 Actions=ToggleHiddenFilesView;
 TryExec=qdbus
