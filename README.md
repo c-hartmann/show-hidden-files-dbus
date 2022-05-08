@@ -17,3 +17,6 @@ This is a clean room implementation based on D-Bus, therefore it lacks any
 dependencies beside qdbus(1), that should come basicly always with KDE.
 
 ![in-action-screenshot](assets/images/show-hidden-files-dbus-screen.png)
+
+[Homepage](https://c-hartmann.github.io/show-hidden-files-dbus/ "Homepage at GitHub Pages")
+
