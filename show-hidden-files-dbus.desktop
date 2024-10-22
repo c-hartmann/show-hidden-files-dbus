@@ -33,5 +33,6 @@ TryExec=qdbus
 Name=View Hidden Files	Ctrl-H
 Name[de]=Versteckte Dateien anzeigen	Strg-H
 Name[nl]=Verborgen bestanden tonen	Ctrl+H
+Name[fr]=Afficher les fichiers cachés	Ctrl+H
 Icon=view-visible
 Exec=bash -c 'for sname in $( qdbus "org.kde.dolphin-*" ) ; do isactive=false ; isactive=$( qdbus "$sname" "/dolphin/Dolphin_1" "org.qtproject.Qt.QWidget.isActiveWindow" ) ; $isactive && qdbus "$sname" "/dolphin/Dolphin_1/actions/show_hidden_files" "org.qtproject.Qt.QAction.trigger" ; done'
