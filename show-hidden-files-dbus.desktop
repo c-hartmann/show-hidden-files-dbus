@@ -31,7 +31,7 @@ TryExec=qdbus
 
 [Desktop Action ToggleHiddenFilesView]
 Name=View Hidden Files	Ctrl-H
-Name[de]=Versteckte Dateien anzeigen	Strg-H
+Name[de]=Versteckte Dateien anzeigen	Strg+H
 Name[nl]=Verborgen bestanden tonen	Ctrl+H
 Name[fr]=Afficher les fichiers cachés	Ctrl+H
 Icon=view-visible
