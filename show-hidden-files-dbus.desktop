@@ -29,7 +29,8 @@ X-KDE-Priority=TopLevel
 Icon=view-visible
 Actions=ToggleHiddenFilesView;
 # TryExec=qdbus6 # no longer used, as some distros use unusual names
-# TODO What is SUSE using? -> 'qdbus6'. Fedora uses 'qdbus-qt6'
+# TODO What is openSUSE using? -> 'qdbus6'. Fedora uses 'qdbus-qt6'
+# TODO Switch to a more generic command? (such as dbus-send)
 
 [Desktop Action ToggleHiddenFilesView]
 Name=Toggle Hidden Files View	Ctrl-H
