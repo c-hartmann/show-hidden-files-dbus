@@ -31,6 +31,8 @@ Actions=ToggleHiddenFilesView;
 # TryExec=qdbus6 # no longer used, as some distros use unusual names
 # TODO What is openSUSE using? -> 'qdbus6'. Fedora uses 'qdbus-qt6'
 # TODO Switch to a more generic command? (such as dbus-send)
+# TODO Check, if former and later missing action is back again?
+# TODO Rename to toggle-*?
 
 [Desktop Action ToggleHiddenFilesView]
 Name=Toggle Hidden Files View	Ctrl-H
